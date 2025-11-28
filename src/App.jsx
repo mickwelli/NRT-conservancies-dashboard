@@ -229,7 +229,7 @@ function App() {
     <div className="dashboard-container">
       <div className="title-block">
         {/* ... Logo and title ... */}
-        <img src="/DE_Africa_Logo.jpg" alt="Logo" className="title-logo" />
+        <img src={import.meta.env.BASE_URL + "DE_Africa_Logo.jpg"} alt="Logo" className="title-logo" />
         <div className="title-text">Conservancy Analytics</div>
         <div className="title-controls">
           <select
